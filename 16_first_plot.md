@@ -1,3 +1,7 @@
+---
+render_with_liquid: false
+---
+
 # Lesson 16 — Creating Your First Plot
 
 ## Goal

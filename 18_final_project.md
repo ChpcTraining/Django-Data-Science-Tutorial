@@ -160,4 +160,10 @@ Template
 Response
 ```
 
+# Completed Project
+
+Only once you have tried yourself, may you try out this complete project to see what is the correct approach to follow:
+
+[Django_CSV_Data_Viewer_Plotter_Final_Project.zip](Django_CSV_Data_Viewer_Plotter_Final_Project.zip)
+
 The next lesson will expose some of the same data-analysis functionality as an API.

@@ -30,6 +30,7 @@ This tutorial starts with your first Django webpage and progressively builds tow
 17. [Letting the User Choose Columns](17_choose_columns.md)
 18. [Final Project — CSV Data Viewer & Plotter](18_final_project.md)
 19. [Creating a Data Science API](19_creating_data_science_api.md)
+20. [Styling With Bootstrap](20_styling_with_bootstrap.md)
 
 ---
 

@@ -1,0 +1,9 @@
+title: Django for Data Science
+description: Learn Django through practical data science projects using Pandas and Matplotlib.
+
+theme: minima
+
+markdown: kramdown
+
+header_pages:
+  - index.md

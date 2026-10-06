@@ -1,7 +1,3 @@
----
-render_with_liquid: false
----
-
 # Lesson 16 — Creating Your First Plot
 
 ## Goal
@@ -42,13 +38,19 @@ plt.savefig(
 plt.close()
 ```
 
-Then in the template:
+Then in the template, load Django's static files:
+
+{% raw %}
 
 ```django
 {% load static %}
 ```
 
-and:
+{% endraw %}
+
+Display the generated plot:
+
+{% raw %}
 
 ```html
 <img
@@ -56,6 +58,8 @@ and:
     alt="Age vs Score"
 >
 ```
+
+{% endraw %}
 
 ## Important
 
@@ -66,3 +70,28 @@ plt.close()
 ```
 
 This prevents figures from accumulating in server memory.
+
+## Application Flow
+
+Our plotting process now looks like:
+
+```text
+CSV Dataset
+     │
+     ▼
+   Pandas
+     │
+     ▼
+ Matplotlib
+     │
+     ▼
+  plot.png
+     │
+     ▼
+Django Static File
+     │
+     ▼
+   Browser
+```
+
+We use **Pandas** to work with the dataset and **Matplotlib** to generate the visualisation.

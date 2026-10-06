@@ -1,3 +1,7 @@
+---
+render_with_liquid: false
+---
+
 # Lesson 9 — Uploading a CSV
 
 ## Goal

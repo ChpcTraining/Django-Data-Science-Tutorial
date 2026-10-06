@@ -1,3 +1,7 @@
+---
+render_with_liquid: false
+---
+
 # Lesson 17 — Letting the User Choose Columns
 
 ## Goal

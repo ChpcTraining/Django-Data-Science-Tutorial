@@ -3,8 +3,6 @@ layout: home
 title: Django for Data Science
 ---
 
-# Django for Data Science
-
 ## From Your First Django Website to a CSV Data Viewer & Plotter
 
 Learn how to build data-driven web applications using **Django, Pandas and Matplotlib**.

@@ -1,7 +1,3 @@
----
-render_with_liquid: false
----
-
 # Lesson 9 — Uploading a CSV
 
 ## Goal
@@ -15,6 +11,8 @@ explorer/templates/explorer/upload.html
 ```
 
 Add:
+
+{% raw %}
 
 ```html
 <!DOCTYPE html>
@@ -51,13 +49,19 @@ Add:
 </html>
 ```
 
+{% endraw %}
+
 ## Important Django concept
 
 Django POST forms normally include:
 
+{% raw %}
+
 ```html
 {% csrf_token %}
 ```
+
+{% endraw %}
 
 This protects the form against Cross-Site Request Forgery.
 

@@ -12,6 +12,8 @@ explorer/templates/explorer/results.html
 
 Add:
 
+{% raw %}
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -44,6 +46,8 @@ Add:
 </body>
 </html>
 ```
+
+{% endraw %}
 
 Update the view:
 

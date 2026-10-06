@@ -1,3 +1,7 @@
+---
+render_with_liquid: false
+---
+
 # Lesson 15 — Serving Static Files
 
 ## Goal

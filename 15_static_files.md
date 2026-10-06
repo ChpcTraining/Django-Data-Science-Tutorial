@@ -1,7 +1,3 @@
----
-render_with_liquid: false
----
-
 # Lesson 15 — Serving Static Files
 
 ## Goal
@@ -23,9 +19,13 @@ explorer/static/explorer/
 
 At the top of a Django template, add:
 
+{% raw %}
+
 ```django
 {% load static %}
 ```
+
+{% endraw %}
 
 A plot stored at:
 
@@ -35,12 +35,16 @@ explorer/static/explorer/plots/plot.png
 
 can be displayed with:
 
+{% raw %}
+
 ```html
 <img
     src="{% static 'explorer/plots/plot.png' %}"
     alt="Dataset plot"
 >
 ```
+
+{% endraw %}
 
 During development, Django's development server can serve static files when `DEBUG=True`.
 
